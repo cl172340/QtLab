@@ -8,6 +8,9 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    qDebug()<<"hello";
+
+
 
     btnNums={{Qt::Key_0,ui->btnNum0},
              {Qt::Key_1,ui->btnNum1},
